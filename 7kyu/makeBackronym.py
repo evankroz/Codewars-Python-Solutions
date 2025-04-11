@@ -1,8 +1,10 @@
 #preloaded variable: "dictionary"
 
 def make_backronym(acronym):
-    #dictionary = 0
+    dictionary = 0
     wrd_lst = []
     for i in acronym:
         wrd_lst.append(dictionary[i.upper()])
     return " ".join(wrd_lst)
+
+#remove dictionary = 0 for code to run appropriately
